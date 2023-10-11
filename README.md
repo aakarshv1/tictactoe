@@ -8,7 +8,7 @@ Command Line Tic-Tac-Toe Game (m rows, n cols, k-in-a-row to win) against Perfec
    cd tic-tac-toe
    ```
 
-2. Run ```python game.py``` in your terminal
+2. Run ```python3 game.py``` in your terminal
 3. You will be prompted to input the number of rows, columns, and pieces in a row required to win. You'll also be prompted to type any variants you'd like to play, the options for which are `misere`, `x_only`, `order`, and `chaos`. (Note that you can play both `misere` and `x_only` simultaneously). To play regular old tictactoe, simply press `enter`
 4. After creating the game, you'll see something like this:
     ```bash
