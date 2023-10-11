@@ -1,4 +1,4 @@
-from homefun5.tictactoe_variants import Tictactoe
+from tictactoe_variants import Tictactoe
 import time
 
 ## General solver for game encodings
@@ -78,48 +78,14 @@ def position_analysis(cache):
     return (wins, total_losses, total_ties, total)
 
 if __name__ == "__main__":
-    h = 2
-    w = 2
-    k = 2
+    h = 3
+    w = 3
+    k = 3
     start = time.time()
-    solve(Tictactoe(h, w, k, misere=True), sym=True)
+    solve(Tictactoe(h, w, k), sym=True)
     end = time.time()
     print(f"\n\nTic-Tac-Toe ({h}x{w}) Original (without symmetries)\n")
     print("Time Elapsed: ", end-start)
     remoteness_analysis(cache)
-    # cache = {}
-    # start = time.time()
-    # solve(Tictactoe(h, w, misere=True), sym=True)
-    # end = time.time()
-    # print(f"\n\nTic-Tac-Toe ({h}x{w}) Misere (without symmetries)\n")
-    # print("Time Elapsed: ", end-start)
-    # remoteness_analysis(cache)
-    # cache = {}
-    # start = time.time()
-    # solve(Tictactoe(h, w, x_only=True), sym=True)
-    # end = time.time()
-    # print(f"\n\nTic-Tac-Toe ({h}x{w}) X-Only (without symmetries)\n")
-    # print("Time Elapsed: ", end-start)
-    # remoteness_analysis(cache)
-    # cache = {}
-    # start = time.time()
-    # solve(Tictactoe(h, w, misere=True, x_only=True), sym=True)
-    # end = time.time()
-    # print(f"\n\nTic-Tac-Toe ({h}x{w}) Misere and X-Only (without symmetries)\n")
-    # print("Time Elapsed: ", end-start)
-    # remoteness_analysis(cache)
-    # cache = {}
-    # start = time.time()
-    # solve(Tictactoe(h, w, order=True), sym=True)
-    # end = time.time()
-    # print(f"\n\nTic-Tac-Toe ({h}x{w}) Order First (without symmetries)\n")
-    # print("Time Elapsed: ", end-start)
-    # remoteness_analysis(cache)
-    # cache = {}
-    # start = time.time()
-    # solve(Tictactoe(h, w, chaos=True), sym=True)
-    # end = time.time()
-    # print(f"\n\nTic-Tac-Toe ({h}x{w}) Chaos First (without symmetries)\n")
-    # print("Time Elapsed: ", end-start)
-    # remoteness_analysis(cache)
+
     
