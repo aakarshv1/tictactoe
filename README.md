@@ -58,5 +58,5 @@ Here are some improvements I'm working on:
 - More efficient solving (Parallel, GPU, Cython???)
 
 ## Credits
-Thank you to Prof. Dan Garcia @ UC Berkeley and the [Gamescrafters](http://gamescrafters.berkeley.edu/) group for the inspiration This was actually part of my homework assignment as a new member of the group, but I wanted to share it here because I thought it was super cool. For the record, I wrote all the code by myself (may or may not have also hired an software developer consultant from OpenAI :)) but the ideas come from what discussed in the game theory research group. The code is by no means perfect, so please feel free to reach out with any bugs, recommendations, or questions!
+Thank you to Prof. Dan Garcia @ UC Berkeley and the [Gamescrafters](http://gamescrafters.berkeley.edu/) group for the inspiration This was actually part of a project as a member of the group, but I wanted to share it here because I thought it was super cool. For the record, I wrote all the code by myself (may or may not have also hired an software developer consultant from OpenAI :)) but the ideas come from what discussed in the game theory research group. The code is by no means perfect, so please feel free to reach out with any bugs, recommendations, or questions!
 
